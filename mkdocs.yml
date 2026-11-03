@@ -1,0 +1,8 @@
+site_name: "hello-ci"
+site_description: "Testing ci App"
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core

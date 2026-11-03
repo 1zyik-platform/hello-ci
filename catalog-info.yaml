@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "hello-ci"
+  description: "Testing ci App"
+  annotations:
+    github.com/project-slug: 1zyik-platform/hello-ci
+    backstage.io/techdocs-ref: dir:.
+    argocd/app-name: hello-ci
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/platform-team"
